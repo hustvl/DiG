@@ -80,7 +80,7 @@ Diffusion models with large-scale pre-training have achieved significant success
 
 
 ## Acknowledgement :heart:
-This project is based on GLA ([paper](https://arxiv.org/abs/2312.06635), [code](https://github.com/berlino/gated_linear_attention)), flash-linear-attention ([code](https://github.com/sustcsonglin/flash-linear-attention)), DiT ([paper](http://arxiv.org/abs/2212.09748), [code](https://github.com/facebookresearch/DiT)), OpenDiT ([code](https://github.com/NUS-HPC-AI-Lab/OpenDiT)). Thanks for their wonderful works.
+This project is based on GLA ([paper](https://arxiv.org/abs/2312.06635), [code](https://github.com/berlino/gated_linear_attention)), flash-linear-attention ([code](https://github.com/sustcsonglin/flash-linear-attention)), DiT ([paper](http://arxiv.org/abs/2212.09748), [code](https://github.com/facebookresearch/DiT)), DiS ([paper](https://arxiv.org/abs/2402.05608), [code](https://github.com/feizc/DiS)), OpenDiT ([code](https://github.com/NUS-HPC-AI-Lab/OpenDiT)). Thanks for their wonderful works.
 
 ## Citation
 If you find DiG is useful in your research or applications, please consider giving us a star 🌟 and citing it by the following BibTeX entry.
