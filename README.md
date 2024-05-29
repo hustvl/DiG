@@ -39,7 +39,7 @@ Diffusion models with large-scale pre-training have achieved significant success
 <img src="assets/dig_pipeline_v1.9.png" />
 </div>
 
-## Envs. for Pretraining
+## Envs. for Training
 
 - Python 3.9.2
 
@@ -84,3 +84,14 @@ This project is based on GLA ([paper](https://arxiv.org/abs/2312.06635), [code](
 
 ## Citation
 If you find DiG is useful in your research or applications, please consider giving us a star 🌟 and citing it by the following BibTeX entry.
+
+```bibtex
+@article{dig,
+      title={DiG: Scalable and Efficient Diffusion Models with Gated Linear Attention}, 
+      author={Lianghui Zhu and Zilong Huang and Bencheng Liao and Jun Hao Liew and Hanshu Yan and Jiashi Feng and Xinggang Wang},
+      year={2024},
+      eprint={2405.18428},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
