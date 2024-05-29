@@ -1,5 +1,5 @@
 <div align="center">
-<h1>Diffusion GLA </h1>
+<h1>Diffusion GLA (DiG) </h1>
 <h3>Scalable and Efficient Diffusion Models with Gated Linear Attention</h3>
 
 [Lianghui Zhu](https://github.com/Unrealluver)<sup>1,2</sup>,[Zilong Huang](https://speedinghzl.github.io/)<sup>2 :email:</sup>,[Bencheng Liao](https://github.com/LegendBC)<sup>1</sup>,[Jun Hao Liew](https://scholar.google.com/citations?user=8gm-CYYAAAAJ&hl=zh-CN&oi=ao)<sup>2</sup>, [Hanshu Yan](https://hanshuyan.github.io/)<sup>2</sup>, [Jiashi Feng](https://sites.google.com/site/jshfeng/)<sup>2</sup>, [Xinggang Wang](https://xwcv.github.io/)<sup>1 :email:</sup>
@@ -8,7 +8,7 @@
 
 (<sup>:email:</sup>) corresponding author.
 
-ArXiv Preprint ([arXiv ****.*****](to.do))
+ArXiv Preprint ([arXiv 2405.18428](to.do))
 
 
 </div>
