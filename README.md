@@ -22,9 +22,12 @@ ArXiv Preprint ([arXiv 2405.18428](https://arxiv.org/abs/2405.18428))
 
 * **` May. 28th, 2024`:** We released our paper on Arxiv. Code/Models are coming soon. Please stay tuned! ☕️
 
+<div align="center">
+<img src="assets/vis_teaser_v2.3.png" />
+</div>
 
 ## Abstract
-Diffusion models with large-scale pre-training have achieved significant success in the field of visual content generation, particularly exemplified by Diffusion Transformers (DiT). However, DiT models have faced challenges with scalability and quadratic complexity efficiency. In this paper, we aim to leverage the long sequence modeling capability of Gated Linear Attention (GLA) Transformers, expanding its applicability to diffusion models. We introduce Diffusion Gated Linear Attention Transformers (DiG), a simple, adoptable solution with minimal parameter overhead, following the DiT design, but offering superior efficiency and effectiveness. In addition to better performance than DiT, DiG-S/2 exhibits $2.5\times$ higher training speed than DiT-S/2 and saves $75.7%$ GPU memory at a resolution of $1792 \times 1792$. Moreover, we analyze the scalability of DiG across a variety of computational complexity. DiG models, with increased depth/width or augmentation of input tokens, consistently exhibit decreasing FID. We further compare DiG with other subquadratic-time diffusion models. With the same model size, DiG-XL/2 is $4.2\times$ faster than the recent Mamba-based diffusion model at a $1024$ resolution, and is $1.8\times$ faster than DiT with CUDA-optimized FlashAttention-2 under the $2048$ resolution. All these results demonstrate its superior efficiency among the latest diffusion models.
+Diffusion models with large-scale pre-training have achieved significant success in the field of visual content generation, particularly exemplified by Diffusion Transformers (DiT). However, DiT models have faced challenges with quadratic complexity efficiency, especially when handling long sequences. In this paper, we aim to incorporate the sub-quadratic modeling capability of Gated Linear Attention (GLA) into the 2D diffusion backbone. Specifically, we introduce Diffusion Gated Linear Attention Transformers (DiG), a simple, adoptable solution with minimal parameter overhead. We offer two variants, i,e, a plain and U-shape architecture, showing superior efficiency and competitive effectiveness. In addition to superior performance to DiT and other sub-quadratic-time diffusion models at $256 \times 256$ resolution, DiG demonstrates greater efficiency than these methods starting from a $512$ resolution. Specifically, DiG-S/2 is $2.5\times$ faster and saves $75.7\%$ GPU memory compared to DiT-S/2 at a $1792$ resolution. Additionally, DiG-XL/2 is $4.2\times$ faster than the Mamba-based model at a $1024$ resolution and $1.8\times$ faster than DiT with FlashAttention-2 at a $2048$ resolution. We will release the code soon.
 
 
 <div align="center">
@@ -36,7 +39,7 @@ Diffusion models with large-scale pre-training have achieved significant success
 
 ## Overview
 <div align="center">
-<img src="assets/dig_pipeline_v1.9.png" />
+<img src="assets/dig_pipeline_v3.6.png" />
 </div>
 
 ## Envs. for Training
