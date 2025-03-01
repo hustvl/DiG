@@ -20,6 +20,8 @@ ArXiv Preprint ([arXiv 2405.18428](https://arxiv.org/abs/2405.18428))
 
 ### News
 
+* **` Feb. 27th, 2025`:** Diffusion GLA (DiG) is accepted by CVPR2025. 🎉
+
 * **` May. 28th, 2024`:** We released our paper on Arxiv. Code/Models are coming soon. Please stay tuned! ☕️
 
 <div align="center">
